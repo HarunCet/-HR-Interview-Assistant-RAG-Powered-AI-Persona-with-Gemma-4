@@ -194,8 +194,6 @@ Gemma 4 E2B in full precision exceeds T4 VRAM. NF4 quantization reduces memory ~
 ## 📈 Future Improvements
 
 - **Interview Mode** — System automatically asks 10 classic HR questions in sequence and gives a final evaluation
-- **Answer Scoring** — User rates each answer 1–5 stars to identify weak spots
-- **Multilingual Support** — Auto-detect CV language and respond in the same language
 - **Voice Input** — Accept spoken questions via `gr.Audio`
 - **PDF Report** — Export the full interview session as a downloadable PDF
 
@@ -212,5 +210,4 @@ MIT License — free to use, modify and distribute.
 - [Google Gemma](https://ai.google.dev/gemma) for the open-weight model
 - [Hugging Face Transformers](https://github.com/huggingface/transformers)
 - [FAISS](https://github.com/facebookresearch/faiss) by Meta AI
-- [Sentence Transformers](https://www.sbert.net/)
 - [Gradio](https://gradio.app/)
