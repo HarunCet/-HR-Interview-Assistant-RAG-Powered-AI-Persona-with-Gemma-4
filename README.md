@@ -142,14 +142,8 @@ model = AutoModelForCausalLM.from_pretrained(
 
 ### 3. Run the Notebook
 
-Execute cells in order:
-- **Cell 3** — Embedding model + FAISS setup
-- **Cell 4** — Prompt builder + answer generator
-- **Cell 5** — Enter user info and build vector DB
-- **Cell 6** — Single question test
-- **Cell 7** — Interactive loop (no UI)
-- **Cell 8** — Gradio UI (2-screen flow)
-- **Cell 9–12** — Evaluation pipeline
+Execute cells in order
+
 
 ### 4. Launch the UI
 
@@ -193,7 +187,6 @@ Gemma 4 E2B in full precision exceeds T4 VRAM. NF4 quantization reduces memory ~
 
 ## 📈 Future Improvements
 
-- **Interview Mode** — System automatically asks 10 classic HR questions in sequence and gives a final evaluation
 - **Voice Input** — Accept spoken questions via `gr.Audio`
 - **PDF Report** — Export the full interview session as a downloadable PDF
 
