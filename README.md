@@ -148,10 +148,10 @@ Execute cells in order
 ### 4. Launch the UI
 
 ```python
-demo.launch(share=True, debug=True)
+demo.launch()
 ```
 
-Open the public link, upload your CV or paste your background, click **Mülakata Başla** and start asking HR questions.
+Upload your CV or paste your background, click **Mülakata Başla** and start asking HR questions.
 
 ---
 
