@@ -4,16 +4,6 @@
 
 ---
 
-## 📸 Screenshots
-
-### Profile Setup Screen
-
-
-### Interview Chat Screen
-
-
----
-
 ## 🧠 What It Does
 
 This project lets a user input their personal background — or upload a CV as PDF — and creates an AI persona that answers HR interview questions **in first person**, as if the user themselves is speaking. It uses Retrieval-Augmented Generation (RAG) to ground every answer in the user's actual information, avoiding hallucinations.
